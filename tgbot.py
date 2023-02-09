@@ -2,7 +2,7 @@
 from telebot import types
 ENABLE_MIDDLEWARE = True
 SESSION_TIME_TO_LIVE = 5 * 60
-bot = telebot.TeleBot('5826597344:AAEImoEslAM3jv1okyw6eIIHvBK2dw2Yuhc')
+bot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['start'])
